@@ -1,10 +1,6 @@
-let bonusPoints = 50 
+let count = 0
 
-bonusPoints = bonusPoints + 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints - 75
-console.log(bonusPoints)
-
-bonusPoints  = bonusPoints + 45
-console.log(bonusPoints)
+function countelog() {
+    count = count + 1 
+    document.getElementById("countertext").innerText = count 
+}
